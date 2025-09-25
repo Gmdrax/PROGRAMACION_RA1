@@ -9,13 +9,5 @@ fun main() {
     var numero2 : Double = scan.nextDouble()
     var resultado : Boolean
 
-    if ( numero1 == numero2 ){
-        resultado = true
-    }
-
-    else {
-        resultado = false
-    }
-
-    println( resultado )
+    println( numero1 == numero2)
 }

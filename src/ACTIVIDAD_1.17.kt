@@ -5,17 +5,11 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var numero1 : Double = scan.nextDouble()
+    var numero2 : Int = scan.nextInt()
     var resultado : Boolean
 
-    if ( numero1 <= 18 ){
-        resultado = false
-    }
 
-    else {
-        resultado = true
-    }
+    println( numero2 >= 18 )
 
-    println( resultado )
 }
 

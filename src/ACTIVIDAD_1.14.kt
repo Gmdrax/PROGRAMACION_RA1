@@ -10,7 +10,7 @@ fun main() {
     var precio : Double = scan.nextDouble()
 
 
-    println( "" + (precio/gente) + "€" )
+    println("${(precio/gente)}  €" )
 
 }
 

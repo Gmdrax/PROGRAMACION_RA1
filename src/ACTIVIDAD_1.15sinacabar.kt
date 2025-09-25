@@ -5,9 +5,10 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var numero1 : Double = scan.nextDouble()
+    var numero1 : Int = scan.nextInt()
+    var numero2
 
-    println( )
+    println( (numero1 + 1) && numero2 =  )
 
 }
 

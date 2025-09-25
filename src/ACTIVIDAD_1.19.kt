@@ -6,15 +6,7 @@ fun main() {
     val scan = Scanner(System.`in`)
 
     var numero1 : Boolean = scan.nextBoolean()
-    var resultado : Boolean
 
-    if ( numero1 ){
-        resultado = false
-    }
+    println( !numero1 )
 
-    else {
-        resultado = true
-    }
-
-    println( resultado )
 }

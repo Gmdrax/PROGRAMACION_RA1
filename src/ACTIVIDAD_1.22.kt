@@ -29,5 +29,5 @@ fun main() {
         resultado = false
     }
 
-    println( resultado )
+    println( numero5 > numero4 && numero3 > numero2 && numero2 > numero1 && numero4 > numero3 )
 }

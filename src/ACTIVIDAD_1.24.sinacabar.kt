@@ -5,7 +5,7 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var lletra : Char = scan.next().single()
+    var numero : Int = scan.nextInt()
 
-    println( lletra >= 'a' )
+    println( numero >= 0 )
 }

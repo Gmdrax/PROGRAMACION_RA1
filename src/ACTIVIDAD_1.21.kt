@@ -6,23 +6,10 @@ fun main() {
     val scan = Scanner(System.`in`)
 
     var numero1 : Int = scan.nextInt()
+
     var numero2 : Int = scan.nextInt()
+
     var numero3 : Int = scan.nextInt()
-    var resultado : Boolean
 
-    if ( numero1 == numero2){
-        resultado = true
-    }
-    if ( numero1 == numero3){
-        resultado = true
-    }
-    if ( numero2 == numero3){
-        resultado = true
-    }
-
-    else {
-        resultado = false
-    }
-
-    println( resultado )
+    println( numero1 == numero2 && numero2 == numero3 && numero3 == numero1 )
 }

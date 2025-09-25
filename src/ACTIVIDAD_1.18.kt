@@ -5,17 +5,9 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var numero1 : Double = scan.nextDouble()
-    var numero2 : Double = scan.nextDouble()
+    var numero1 : Int = scan.nextInt()
+    var numero2 : Int = scan.nextInt()
     var resultado : Boolean
 
-    if ( numero1 > numero2 ){
-        resultado = true
-    }
-
-    else {
-        resultado = false
-    }
-
-    println( resultado )
+    println( numero1 > numero2)
 }
