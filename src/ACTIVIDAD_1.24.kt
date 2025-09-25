@@ -5,7 +5,7 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var numero : Int = scan.nextInt()
+    var numero = scan.next().single()
 
-    println( numero >= 0 )
+    println( numero >= '0' && numero <= '9' )
 }

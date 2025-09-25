@@ -5,9 +5,9 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var lletra = scan.next().single()
+    var lletra = scan.next().lowercase()
 
-    var lletra2 = lletra.uppercase()
+    var lletra2 = scan.next().uppercase()
 
-    println( lletra2  )
+    println( lletra2 >= "A" && lletra2 <= "Z"|| lletra == "a" && lletra <= "z")
 }

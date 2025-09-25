@@ -6,9 +6,9 @@ fun main() {
     val scan = Scanner(System.`in`)
 
     var numero1 : Int = scan.nextInt()
-    var numero2
+    var numero2 = (numero1+1) %60
 
-    println( (numero1 + 1) && numero2 =  )
+    println(numero2)
 
 }
 

@@ -7,5 +7,5 @@ fun main() {
 
     var lletra : Char = scan.next().single()
 
-    println( lletra >= 'a' )
+    println( lletra >= 'A' && lletra <= 'Z'|| lletra == 'a' && lletra <= 'z')
 }

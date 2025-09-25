@@ -7,7 +7,7 @@ fun main() {
 
     var lletra = scan.next().single()
 
-    var lletra2 = lletra.uppercase()
+    var lletra2 = lletra.lowercase()
 
     println( lletra2  )
 }
