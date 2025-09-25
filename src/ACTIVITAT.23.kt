@@ -5,11 +5,11 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var lletra : Double = scan.nextDouble()
+    var lletra : Char = scan.next().single()
 
     var resultado : Boolean
 
-    if ( lletra == 13) {
+    if ( lletra > 'a' ) {
         resultado = true
     }
 
