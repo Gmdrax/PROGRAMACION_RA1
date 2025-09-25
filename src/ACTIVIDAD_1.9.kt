@@ -1,16 +1,20 @@
 import java.util.Scanner
 
-
 //Llegeix el preu original i el preu actual i imprimeix el descompte (en %).
+
 fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var original = scan.nextDouble()
-    var actual = scan.nextDouble()
+
+    println("cual es el preu original")
+    var preuOriginal = scan.nextDouble()
+    println("cual es el preu actual?")
+    var preuActual = scan.nextDouble()
 
 
-    println(""+(100 - (actual * 100) / original) +"%")
+
+    println("${(100 - (preuActual * 100) / preuOriginal)} %")
 
 }
 
