@@ -2,22 +2,23 @@ import java.util.Scanner
 
 //Fes un programa on, introduit el número de començals i el preu d'un sopar (que pot contenir cèntims), imprimeixi quan haurà de
 //pagar cada començal.
+
 fun main() {
 
     val scan = Scanner(System.`in`)
 
-    //Revem les dades de cuants començals hi han.
-    println("cual es el numero de començals?")
+    //Rebem les dades de quants començals hi han.
+    println("Cual es el numero de començals?")
     var numComen : Double = scan.nextDouble()
-    //Revem el preu de cuan ha cosatat el sopar.
-    println("cual es el preu del sopar?")
+    //Rebem el preu de quant ha cosatat el sopar.
+    println("Cual es el preu del sopar?")
     var preuSopar : Double = scan.nextDouble()
 
-    //Defininm la variable y dividim el preu del sopar entre els començals.
+    //Defininm la variable preuFinal y dividim el preu del sopar entre els començals.
     var preuFinal = (preuSopar/numComen)
 
-    //Mostrem el preu final del sopar pero cada persona.
-    println("${preuFinal}  €" )
+    //Mostrem el preu final del sopar per cada persona.
+    println("El preu per cada comensal es de ${preuFinal}€" )
 
 }
 
