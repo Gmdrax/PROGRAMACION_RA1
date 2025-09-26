@@ -6,11 +6,18 @@ fun main() {
 
     val scan = Scanner(System.`in`)
 
-    var gente : Double = scan.nextDouble()
-    var precio : Double = scan.nextDouble()
+    //Revem les dades de cuants començals hi han.
+    println("cual es el numero de començals?")
+    var numComen : Double = scan.nextDouble()
+    //Revem el preu de cuan ha cosatat el sopar.
+    println("cual es el preu del sopar?")
+    var preuSopar : Double = scan.nextDouble()
 
+    //Defininm la variable y dividim el preu del sopar entre els començals.
+    var preuFinal = (preuSopar/numComen)
 
-    println("${(precio/gente)}  €" )
+    //Mostrem el preu final del sopar pero cada persona.
+    println("${preuFinal}  €" )
 
 }
 

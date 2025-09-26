@@ -7,7 +7,6 @@ fun main() {
 
     var numero1 : Int = scan.nextInt()
     var numero2 : Int = scan.nextInt()
-    var resultado : Boolean
 
     println( numero1 > numero2)
 }

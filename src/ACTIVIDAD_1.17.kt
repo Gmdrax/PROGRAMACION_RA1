@@ -6,8 +6,6 @@ fun main() {
     val scan = Scanner(System.`in`)
 
     var numero2 : Int = scan.nextInt()
-    var resultado : Boolean
-
 
     println( numero2 >= 18 )
 

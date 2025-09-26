@@ -7,7 +7,6 @@ fun main() {
 
     var numero1 : Double = scan.nextDouble()
     var numero2 : Double = scan.nextDouble()
-    var resultado : Boolean
 
     println( numero1 == numero2)
 }
